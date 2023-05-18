@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace TrackerLibrary
 {
-    internal class MatchupentryModel
+    public class MatchupentryModel
     {
+        public int MyProperty { get; set; }
+        public int MyValue { get; set; }
+        public MatchupentryModel() { }  
+
     }
 }

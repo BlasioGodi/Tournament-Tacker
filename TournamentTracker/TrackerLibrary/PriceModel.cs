@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace TrackerLibrary
 {
-    internal class PriceModel
+    public class PriceModel
     {
+        public int MyProperty { get; set; }
+        public int PriceType { get; set; }
+        public string PriceValue { get; set; }
+        
     }
 }

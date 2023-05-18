@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace TrackerLibrary
 {
-    internal class TournamentModel
+    public class TournamentModel
     {
+        public string TournamentType { get; set; }
+        public string TournamentName { get;set; }   
+        public string TournamentDescription { get;}
+        
     }
 }
