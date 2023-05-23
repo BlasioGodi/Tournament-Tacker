@@ -10,6 +10,7 @@ namespace TrackerLibrary
     {
         public List<MatchupentryModel> Entries { get; set; }= new List<MatchupentryModel>();
         public TeamModel Winner { get; set; }
+        public int MatchupRound { get; set; }
 
     }
 }
